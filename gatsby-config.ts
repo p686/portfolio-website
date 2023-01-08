@@ -8,13 +8,13 @@ const config: GatsbyConfig = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/gatsby-config.js
-    siteTitle: `Minimal Blog`,
+    siteTitle: `Prateek Dullur`,
     siteTitleAlt: `Minimal Blog - Gatsby Theme`,
     siteHeadline: `Minimal Blog - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://minimal-blog.lekoarts.de`,
+    siteUrl: `https://prateekdullur.gatsbyjs.io/`,
     siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
     siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    author: `@prateeek_dullur`,
   },
   trailingSlash: `never`,
   plugins: [
@@ -23,6 +23,10 @@ const config: GatsbyConfig = {
       // See the theme's README for all available options
       options: {
         navigation: [
+          {
+            title: `Projects`,
+            slug: `/projects`,
+          },
           {
             title: `Blog`,
             slug: `/blog`,
@@ -34,12 +38,12 @@ const config: GatsbyConfig = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `Linkedin`,
+            url: `https://www.linkedin.com/in/prateek-dullur/`,
           },
           {
             name: `Homepage`,
-            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
+            url: `https://prateekdullur.gatsbyjs.io/`,
           },
         ],
       },
